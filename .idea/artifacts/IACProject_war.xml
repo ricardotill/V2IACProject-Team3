@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IACProject:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/IACProject_war</output-path>
+    <root id="archive" name="IACProject_war.war">
+      <element id="artifact" artifact-name="IACProject:war exploded" />
+    </root>
+  </artifact>
+</component>
