@@ -48,12 +48,6 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Opdracht3">Opdracht 3</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Opdracht4">Opdracht 4</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Opdracht5">Opdracht 5</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -66,7 +60,12 @@
   <!-- Portfolio Grid Section -->
   <section class="portfolio" id="Opdracht1">
     <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Opdracht 1</h2>
+      <form method="POST">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Opdracht 1</h2><br>
+        <input class="form-control" type="text" name="naam" placeholder="Naam..."><br>
+        <input class="form-control" type="number" name="prijs" placeholder="prijs..."> <br>
+        <input class="btn btn-secondary" type="button" name="submit" value="submit" id="submitOpdracht1">
+      </form>
     </div>
   </div>
 </section>
@@ -74,29 +73,14 @@
 <section class="bg-primary text-black mb-0" id="Opdracht2">
   <div class="container">
     <h2 class="text-center text-uppercase text-black">Opdracht 2</h2>
-    <div class="row">
-    </div>
+    <input class="btn btn-secondary" type="button" name="submit" value="submit" id="submitOpdracht2">
   </div>
 </section>
 
 <section class="portfolio" id="Opdracht3">
   <div class="container">
     <h2 class="text-center text-uppercase text-secondary mb-0">Opdracht 3</h2>
-  </div>
-</div>
-</section>
-
-<section class="bg-primary text-black mb-0" id="Opdracht4">
-  <div class="container">
-    <h2 class="text-center text-uppercase text-black">Opdracht 4</h2>
-    <div class="row">
-    </div>
-  </div>
-</section>
-
-<section class="portfolio" id="Opdracht5">
-  <div class="container">
-    <h2 class="text-center text-uppercase text-secondary mb-0">Opdracht 5</h2>
+    <input class="btn btn-danger" type="button" name="submit" value="submit" id="submitOpdracht3">
   </div>
 </div>
 </section>
@@ -108,42 +92,43 @@
       <div class="col-md-6 mb-5 mb-lg-0">
         <h4 class="text-uppercase mb-4">Locatie</h4>
         <p class="lead mb-0">Heidelberglaan</p>
-        </div>
-        <div class="col-md-6">
-          <h4 class="text-uppercase mb-4">Over Blokker</h4>
-          <p class="lead mb-0">Blokker is echt een fantastische website!</a>.</p>
-        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="text-uppercase mb-4">Over Blokker</h4>
+        <p class="lead mb-0">Blokker is echt een fantastische website!</a>.</p>
       </div>
     </div>
-  </footer>
-
-  <div class="copyright py-4 text-center text-black">
-    <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
-    </div>
   </div>
+</footer>
 
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-black rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
+<div class="copyright py-4 text-center text-black">
+  <div class="container">
+    <small>Copyright &copy; Your Website 2019</small>
   </div>
+</div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-to-top d-lg-none position-fixed ">
+  <a class="js-scroll-trigger d-block text-center text-black rounded" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/freelancer.min.js"></script>
+<script src="js/Opdrachten.js"></script>
 
 </body>
 
