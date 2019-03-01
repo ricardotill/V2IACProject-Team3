@@ -1,4 +1,4 @@
 package persistence;
 
-public class ArtikelDao {
+public interface ArtikelDao {
 }
