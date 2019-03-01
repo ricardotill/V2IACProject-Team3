@@ -58,3 +58,15 @@ $("#submitOpdracht3").click(function() {
 	});
 });
 
+
+
+
+
+
+
+
+
+$("#locatie").click(function() {
+	alert("geef gps coordinaten.");
+	$( "#locatieDIV" ).append( "<p>Heidelberglaan 15, Utrecht</p>" );
+});
