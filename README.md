@@ -8,7 +8,6 @@ lalalala Blokker lalalala artikelen van andere verkopers alalala net als bol.com
 Zorg dat je deze dingen geïnstalleerd hebt:
 - Eclipse
 - Java 1.8 (natuurlijk)
-- PostgreSQL
 
 ### Stap 1
 Fork het project waar je nu naar kijkt.
@@ -21,9 +20,3 @@ lalala Opdracht 2
 
 ## Opdracht 3
 lalala Opdracht 3
-
-## Opdracht 4
-lalala Opdracht 4
-
-## Opdracht 5
-lalala Opdracht 5
