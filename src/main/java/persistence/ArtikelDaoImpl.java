@@ -1,5 +1,5 @@
 package persistence;
 
-public class ArtikelPostgreSQLDaoImpl implements ArtikelDao {
+public class ArtikelDaoImpl implements ArtikelDao {
 
 }
